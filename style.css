@@ -1,0 +1,60 @@
+body {
+	 background-color: Teal; 
+}
+
+h1 {
+	text-align: center;
+}
+
+body {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -65%); 
+}
+
+#container {
+	border: 5px inset black;
+	border-right: 5px outset black;
+	border-bottom: 5px outset black;
+	background-color: LightSlateGray;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 15px;
+}
+
+#inputValue {
+	width: 320px;
+	height: 30px;
+	background-color: black;
+	color: white;
+	text-align: right;
+	padding: 12px;
+	font-size: 24px;
+	font-weight: bold;
+	border: 5px solid grey;
+}
+
+#inputValue:focus {
+	border: 5px solid darkred;
+}
+
+.btnCont {
+	margin-top: 15px;
+}
+
+.btn {
+	width: 60px;
+	height: 60px;
+	margin: 5px;
+	font-size: 36px;
+	background-color: Gainsboro;
+}
+
+.equalBtn {
+	width: 135px;
+	height: 60px;
+	text-align: center;
+}
